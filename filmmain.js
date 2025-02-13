@@ -13,7 +13,7 @@ import filmActorsRoute from "./routes/filmActors.routes.js";
 
 dotenv.config();
 const app = express();
-const PORT = process.env.PORT || 6000;
+const PORT = process.env.PORT || 8080;
 
 app.use(cors());
 app.use(express.json());
